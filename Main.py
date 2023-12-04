@@ -41,13 +41,13 @@ def merge_sort(alist):
     return alist, 0  
 
 
-def fill_arr(numOfEl):
+def fill_list(numOfEl):
     a = [random.randint(0, 1000) for _ in range(numOfEl)]
     return a
 
 
 if __name__ == "__main__":
-    a = fill_arr(100)
+    a = fill_list(100)
     print(a)
     a, cnt = merge_sort(a)
     print("Reps: ", cnt)
