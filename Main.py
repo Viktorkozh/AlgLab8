@@ -41,8 +41,8 @@ def merge_sort(alist):
     return alist, 0  
 
 
-def fill_list(numOfEl):
-    a = [random.randint(0, 1000) for _ in range(numOfEl)]
+def fill_list(num_of_elements):
+    a = [random.randint(0, 1000) for _ in range(num_of_elements)]
     return a
 
 
